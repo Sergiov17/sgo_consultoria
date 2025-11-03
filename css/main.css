@@ -1,0 +1,280 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 60px; /* altura do seu footer */
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+footer{
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+    position: relative;
+    bottom: 0;
+    color: #FFF;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+ul {
+
+    padding: 0px !important;
+
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+
+main,
+.content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+
+}
+
+.logo {
+    float: left;
+    width: 70%;
+}
+
+.redes-sociais ul li {
+    margin-left: 30px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+}
+
+.header-2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.sub-menu {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+
+    display: inline-block;
+    color: #2b98db;
+    margin-left: 15px;
+    height: 48px;
+}
+
+.menu ul li:hover {
+
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+
+    color: #00bac6;
+
+}
+
+.menu ul li a {
+
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.menu {
+
+    width: 70%;
+    float: left;
+
+}
+
+.search {
+    text-align: center;
+    width: 30%;
+    float: left;
+
+}
+
+.search input {
+    background-image: url('../img/LUPA.png');
+    background-repeat: no-repeat;
+    height: 36px;
+    margin-top: 4px;
+    padding: 10px;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
+}
+
+.column-100 {
+
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 29px;
+    height: 50px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/SETAL.png');
+    top: 44%;
+    left: 20%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 29px;
+    height: 50px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/SETAR.png');
+    top: 44%;
+    right: 20%;
+}
+
+.slick-list {
+    width: 100% !important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.slick-dots {
+
+    margin: 0auto;
+    width: 50%;
+    position: absolute;
+    left: 46%;
+    top: 80%;
+}
+
+li.slick-active button {
+    background: #2b98db;
+}
+
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.text-emphasis {
+    top: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.text-emphasis strong {
+
+    color: #646464;
+}
+
+.text-emphasis h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+
+.text-emphasis p {
+
+    color: #9a9a9a;
+}
+
+.column-3 {
+    top: 50px;
+    padding-left: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.text-block {
+
+    margin-top: 50px;
+
+
+}
+
+h3 {
+    font-weight: normal !important;
+
+
+}
+
+
+.vid {
+    margin-top: 570px;
+    background-image: url("../img/BLK.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.vid-980 {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.column-980-b {
+
+    
+    width: auto;
+    height: auto;
+    
+}
+
+.column-5 {
+    padding-left: 50px;
+    padding-top: 230px;
+    padding-bottom: 20px;
+    float: left;
+    
+}
+.column-6 {
+    padding-right: 50px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    float: right;
+  
+}
+
